@@ -1,0 +1,3 @@
+.foodCardContainer::-webkit-scrollbar{
+    display: none;
+}

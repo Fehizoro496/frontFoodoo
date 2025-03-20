@@ -1,0 +1,417 @@
+[
+  {
+    "id":1,
+    "name": "Tarte aux pommes",
+    "image": "https://images.unsplash.com/photo-1512058564366-c9ec4a03b872",
+    "description": "Une délicieuse tarte aux pommes faite maison avec une pâte sablée croustillante et des pommes caramélisées.",
+    "ingredients": [
+      "250g de farine",
+      "125g de beurre",
+      "50g de sucre",
+      "1 œuf",
+      "6 pommes",
+      "2 cuillères à soupe de sucre roux",
+      "1 pincée de cannelle"
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Préparez la pâte en mélangeant la farine, le beurre, le sucre et l'œuf. Formez une boule et laissez reposer 30 minutes au frais.",
+      "Épluchez et coupez les pommes en fines tranches.",
+      "Étalez la pâte dans un moule à tarte. Disposez les tranches de pommes dessus.",
+      "Saupoudrez les pommes de sucre roux et de cannelle.",
+      "Enfournez pendant 35 à 40 minutes jusqu'à ce que la pâte soit dorée."
+    ],
+    "categorie": "Dessert"
+  },
+  {
+    "id":2,
+    "name": "Spaghetti Carbonara",
+    "image": "https://images.unsplash.com/photo-1589187154064-943aa6f1a58a",
+    "description": "Un plat italien classique à base de pâtes, de lardons et de sauce à base d'œufs et de parmesan.",
+    "ingredients": [
+      "400g de spaghetti",
+      "150g de lardons",
+      "3 jaunes d'œufs",
+      "100g de parmesan râpé",
+      "2 cuillères à soupe de crème fraîche",
+      "Poivre noir"
+    ],
+    "steps": [
+      "Faites cuire les spaghetti dans une grande casserole d'eau bouillante salée selon les instructions du paquet.",
+      "Dans une poêle, faites revenir les lardons jusqu'à ce qu'ils soient dorés.",
+      "Dans un bol, mélangez les jaunes d'œufs, le parmesan râpé et la crème fraîche.",
+      "Égouttez les spaghetti et mélangez-les immédiatement avec les lardons.",
+      "Ajoutez la sauce aux œufs tout en remuant pour éviter que les œufs ne coagulent.",
+      "Poivrez généreusement et servez chaud."
+    ],
+    "categorie": "Plat principal"
+  },
+  {
+    "id":3,
+    "name": "Mousse au chocolat",
+    "image": "https://images.unsplash.com/photo-1599785209707-5f7e03b1d17b",
+    "description": "Un dessert gourmand et léger à base de chocolat noir et de blancs d'œufs montés en neige.",
+    "ingredients": [
+      "200g de chocolat noir",
+      "4 œufs",
+      "30g de sucre",
+      "1 pincée de sel"
+    ],
+    "steps": [
+      "Faites fondre le chocolat noir au bain-marie.",
+      "Séparez les blancs des jaunes d'œufs.",
+      "Ajoutez les jaunes d'œufs au chocolat fondu et mélangez bien.",
+      "Montez les blancs en neige avec une pincée de sel, puis incorporez le sucre petit à petit.",
+      "Incorporez délicatement les blancs en neige au mélange de chocolat.",
+      "Répartissez la mousse dans des ramequins et laissez reposer au réfrigérateur pendant au moins 3 heures avant de servir."
+    ],
+    "categorie": "Dessert"
+  },
+  {
+    "id":4,
+    "name": "Soupe de légumes",
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+    "description": "Une soupe réconfortante à base de légumes frais pour une entrée légère et saine.",
+    "ingredients": [
+      "4 carottes",
+      "3 pommes de terre",
+      "1 poireau",
+      "1 oignon",
+      "1 cube de bouillon de légumes",
+      "Sel",
+      "Poivre"
+    ],
+    "steps": [
+      "Épluchez et coupez les légumes en morceaux.",
+      "Faites-les revenir dans une grande casserole avec un peu d'huile.",
+      "Ajoutez le bouillon et couvrez d'eau.",
+      "Laissez mijoter pendant 30 minutes.",
+      "Mixez la soupe et rectifiez l'assaisonnement si nécessaire.",
+      "Servez chaud."
+    ],
+    "categorie": "Entrée"
+  },
+  {
+    "id":5,
+    "name": "Poulet curry coco",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+    "description": "Un plat exotique et savoureux à base de poulet mijoté dans une sauce au lait de coco et au curry.",
+    "ingredients": [
+      "4 filets de poulet",
+      "400ml de lait de coco",
+      "2 cuillères à soupe de curry",
+      "1 oignon",
+      "1 gousse d'ail",
+      "Huile d'olive",
+      "Sel",
+      "Poivre"
+    ],
+    "steps": [
+      "Coupez le poulet en morceaux.",
+      "Faites revenir l'oignon et l'ail hachés dans une poêle avec de l'huile.",
+      "Ajoutez le poulet et faites-le dorer.",
+      "Incorporez le curry et mélangez bien.",
+      "Ajoutez le lait de coco et laissez mijoter pendant 20 minutes.",
+      "Servez avec du riz basmati."
+    ],
+    "categorie": "Plat principal"
+  },
+  {
+    "id":6,
+    "name": "Quiche lorraine",
+    "image": "https://images.unsplash.com/photo-1578935122733-503f4d72c545",
+    "description": "Un grand classique de la cuisine française, idéal pour un repas rapide et savoureux.",
+    "ingredients": [
+      "1 pâte brisée",
+      "150g de lardons",
+      "3 œufs",
+      "20cl de crème fraîche",
+      "100g de gruyère râpé",
+      "Sel",
+      "Poivre"
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Étalez la pâte brisée dans un moule à tarte.",
+      "Faites revenir les lardons dans une poêle.",
+      "Dans un bol, mélangez les œufs, la crème fraîche et le gruyère. Assaisonnez.",
+      "Répartissez les lardons sur la pâte, puis versez le mélange dessus.",
+      "Enfournez pendant 30 à 35 minutes."
+    ],
+    "categorie": "Plat principal"
+  },
+  {
+    "id":7,
+    "name": "Salade César",
+    "image": "https://images.unsplash.com/photo-1572441712017-dffcf223a1f9",
+    "description": "Une salade fraîche et croquante, idéale pour un repas léger et équilibré.",
+    "ingredients": [
+      "1 laitue romaine",
+      "2 filets de poulet",
+      "50g de croûtons",
+      "30g de parmesan",
+      "4 cuillères à soupe de sauce César",
+      "Sel",
+      "Poivre"
+    ],
+    "steps": [
+      "Coupez le poulet en morceaux et faites-le griller.",
+      "Lavez et coupez la laitue en morceaux.",
+      "Dans un saladier, mélangez la laitue, le poulet, les croûtons et le parmesan.",
+      "Ajoutez la sauce César et mélangez délicatement.",
+      "Servez frais."
+    ],
+    "categorie": "Entrée"
+  },
+  {
+    "id":8,
+    "name": "Brownies au chocolat",
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b",
+    "description": "Un dessert fondant et gourmand, parfait pour les amateurs de chocolat.",
+    "ingredients": [
+      "200g de chocolat noir",
+      "150g de beurre",
+      "150g de sucre",
+      "3 œufs",
+      "100g de farine",
+      "50g de noix"
+    ],
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Faites fondre le chocolat et le beurre ensemble.",
+      "Dans un bol, mélangez le sucre, les œufs et la farine.",
+      "Ajoutez le mélange de chocolat fondu et les noix.",
+      "Versez dans un moule et enfournez pendant 25 minutes.",
+      "Laissez refroidir avant de couper en carrés."
+    ],
+    "categorie": "Dessert"
+  },
+    {
+      "id":9,
+      "name": "Ratatouille",
+      "image": "https://images.unsplash.com/photo-1605527199393-860aad940f46",
+      "description": "Un plat provençal traditionnel à base de légumes mijotés, parfait pour un repas léger et savoureux.",
+      "ingredients": [
+        "2 courgettes",
+        "2 aubergines",
+        "3 tomates",
+        "1 poivron rouge",
+        "1 oignon",
+        "2 gousses d'ail",
+        "Huile d'olive",
+        "Herbes de Provence",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Coupez tous les légumes en dés.",
+        "Dans une grande poêle, faites revenir l'oignon et l'ail avec un peu d'huile d'olive.",
+        "Ajoutez les légumes et laissez mijoter 30 à 40 minutes.",
+        "Assaisonnez avec du sel, du poivre et des herbes de Provence.",
+        "Servez chaud ou froid."
+      ],
+      "categorie": "Plat principal"
+    },
+    {
+      "id":10,
+      "name": "Crêpes sucrées",
+      "image": "https://images.unsplash.com/photo-1608746884708-1e92f35efba9",
+      "description": "Des crêpes fines et légères pour un dessert ou un goûter délicieux.",
+      "ingredients": [
+        "250g de farine",
+        "50g de sucre",
+        "3 œufs",
+        "500ml de lait",
+        "50g de beurre fondu",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Dans un bol, mélangez la farine, le sucre et le sel.",
+        "Ajoutez les œufs un à un, puis incorporez le lait petit à petit.",
+        "Ajoutez le beurre fondu et mélangez bien.",
+        "Laissez reposer la pâte 30 minutes.",
+        "Faites cuire les crêpes dans une poêle chaude légèrement huilée."
+      ],
+      "categorie": "Dessert"
+    },
+    {
+      "id":11,
+      "name": "Pizza Margherita",
+      "image": "https://images.unsplash.com/photo-1601924648508-0a3fa9938c8b",
+      "description": "Une pizza classique italienne avec une garniture simple mais savoureuse.",
+      "ingredients": [
+        "1 pâte à pizza",
+        "200g de sauce tomate",
+        "200g de mozzarella",
+        "Quelques feuilles de basilic frais",
+        "Huile d'olive",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffez le four à 220°C.",
+        "Étalez la pâte à pizza sur une plaque de cuisson.",
+        "Étalez la sauce tomate sur la pâte, puis ajoutez la mozzarella tranchée.",
+        "Ajoutez un filet d'huile d'olive, du sel et du poivre.",
+        "Enfournez pendant 10 à 12 minutes.",
+        "Ajoutez les feuilles de basilic avant de servir."
+      ],
+      "categorie": "Plat principal"
+    },
+    {
+      "id":12,
+      "name": "Smoothie aux fruits rouges",
+      "image": "https://images.unsplash.com/photo-1627712544303-c0556d0ed06e",
+      "description": "Une boisson fraîche et vitaminée, idéale pour un petit-déjeuner ou une collation.",
+      "ingredients": [
+        "200g de fruits rouges surgelés",
+        "1 banane",
+        "200ml de lait d'amande",
+        "1 cuillère à soupe de miel"
+      ],
+      "steps": [
+        "Dans un mixeur, ajoutez tous les ingrédients.",
+        "Mixez jusqu'à obtenir une consistance lisse.",
+        "Versez dans un verre et servez immédiatement."
+      ],
+      "categorie": "Boisson"
+    },
+    {
+      "id":13,
+      "name": "Curry de légumes",
+      "image": "https://images.unsplash.com/photo-1639156641607-2e1079466b64",
+      "description": "Un plat végétarien épicé et réconfortant à base de légumes et de lait de coco.",
+      "ingredients": [
+        "2 carottes",
+        "1 courgette",
+        "1 patate douce",
+        "400ml de lait de coco",
+        "1 cuillère à soupe de curry",
+        "1 oignon",
+        "1 gousse d'ail",
+        "Huile d'olive",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Épluchez et coupez les légumes en morceaux.",
+        "Faites revenir l'oignon et l'ail hachés dans une poêle avec de l'huile.",
+        "Ajoutez les légumes, le curry et mélangez.",
+        "Ajoutez le lait de coco et laissez mijoter 20 minutes.",
+        "Servez avec du riz basmati."
+      ],
+      "categorie": "Plat principal"
+    },
+    {
+      "id":14,
+      "name": "Gâteau au yaourt",
+      "image": "https://images.unsplash.com/photo-1549576490-b0b4831ef60b",
+      "description": "Un gâteau moelleux et facile à préparer, parfait pour toutes les occasions.",
+      "ingredients": [
+        "1 pot de yaourt nature",
+        "2 pots de sucre",
+        "3 pots de farine",
+        "1/2 pot d'huile",
+        "3 œufs",
+        "1 sachet de levure chimique"
+      ],
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Dans un bol, mélangez le yaourt, le sucre et les œufs.",
+        "Ajoutez la farine et la levure, puis l'huile.",
+        "Versez la pâte dans un moule beurré et fariné.",
+        "Enfournez pendant 30 à 35 minutes."
+      ],
+      "categorie": "Dessert"
+    },
+    {
+      "id":15,
+      "name": "Guacamole",
+      "image": "https://images.unsplash.com/photo-1593062095846-bcf9b1c1453d",
+      "description": "Un accompagnement mexicain classique à base d'avocats écrasés et d'épices.",
+      "ingredients": [
+        "2 avocats",
+        "1 tomate",
+        "1 oignon rouge",
+        "1 citron vert",
+        "1 pincée de piment en poudre",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Écrasez les avocats dans un bol.",
+        "Ajoutez la tomate et l'oignon coupés en dés.",
+        "Ajoutez le jus de citron, le piment, le sel et le poivre.",
+        "Mélangez bien et servez avec des tortillas."
+      ],
+      "categorie": "Accompagnement"
+    },
+    {
+      "id":16,
+      "name": "Pancakes",
+      "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
+      "description": "Des pancakes moelleux parfaits pour le petit-déjeuner ou le brunch.",
+      "ingredients": [
+        "250g de farine",
+        "2 œufs",
+        "30g de sucre",
+        "300ml de lait",
+        "1 sachet de levure chimique",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Dans un bol, mélangez la farine, le sucre, la levure et le sel.",
+        "Ajoutez les œufs et le lait, puis mélangez jusqu'à obtenir une pâte lisse.",
+        "Faites cuire des petites portions de pâte dans une poêle chaude légèrement huilée.",
+        "Servez avec du sirop d'érable ou des fruits frais."
+      ],
+      "categorie": "Dessert"
+    },
+    {
+      "id":17,
+      "name": "Soupe à l'oignon",
+      "image": "https://images.unsplash.com/photo-1574427440021-5aefdd1a6a18",
+      "description": "Une soupe traditionnelle française avec des oignons caramélisés et gratinée au fromage.",
+      "ingredients": [
+        "4 oignons",
+        "1 litre de bouillon de volaille",
+        "50g de beurre",
+        "100g de gruyère râpé",
+        "4 tranches de pain",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Épluchez et émincez les oignons.",
+        "Faites-les revenir dans une casserole avec le beurre jusqu'à ce qu'ils soient dorés.",
+        "Ajoutez le bouillon et laissez mijoter 20 minutes.",
+        "Versez la soupe dans des bols, ajoutez une tranche de pain et du gruyère râpé.",
+        "Passez sous le grill jusqu'à ce que le fromage soit fondu."
+      ],
+      "categorie": "Entrée"
+    },
+    {
+      "id":18,
+      "name": "Salade de quinoa",
+      "image": "https://images.unsplash.com/photo-1560807707-8cc77767d783",
+      "description": "Une salade fraîche et équilibrée à base de quinoa et de légumes croquants.",
+      "ingredients": [
+        "200g de quinoa",
+        "1 concombre",
+        "2 tomates",
+        "1 poivron jaune",
+        "1 citron",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Faites cuire le quinoa selon les instructions du paquet.",
+        "Lavez et coupez les légumes en petits dés.",
+        "Dans un saladier, mélangez le quinoa, les légumes, le jus de citron et l'huile d'olive.",
+        "Assaisonnez avec du sel et du poivre.",
+        "Servez frais."
+      ],
+      "categorie": "Entrée"
+    }
+  ]  

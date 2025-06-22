@@ -40,23 +40,25 @@ export const AuthProvider = ({children}:{children:React.ReactNode}) => {
 
     const login = async (email:string,password:string) => {
         try {
-            await axios.post(`http://${NEXT_PUBLIC_API_URL}/auth/login`,{email,password},{withCredentials:true});
-            await checkUser();
-            console.log("user checked");
+            const response = await axios.post('/api/auth/login', 
+                {email, password},
+                {
+                    withCredentials: true,
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                }
+            );
             
-        } catch (error) {
-            console.error("login failed",error);
+            if (response.status === 200) {
+                await checkUser();
+                router.push('/dashboard'); // or wherever you want to redirect after login
+            }
+        } catch (error: any) {
+            console.error("Login failed:", error.response?.data?.message || error.message);
+            throw error; // Re-throw the error so it can be handled by the component
         }
     }
-
-    // const login = async (email:string,password:string) => {
-    //     try {
-    //         await axios.post("/api/auth/login",{email,password},{withCredentials:true});
-    //         await checkUser();
-    //     } catch (error) {
-    //         console.error("login failed",error);
-    //     }
-    // }
 
     const logout = async () => {
         try {

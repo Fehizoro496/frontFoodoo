@@ -6,7 +6,7 @@ export default async function handler(req:NextApiRequest, res: NextApiResponse) 
     try {
         const token = req.cookies.access_token
 
-        if (!token) return res.status(401).json({mesage:'Non authentifié'});
+        if (!token) return res.status(401).json({message:'Non authentifié'});
 
         const response = await axios.get(`http://${NEXT_PUBLIC_API_URL}/auth/me`, {
             headers: {

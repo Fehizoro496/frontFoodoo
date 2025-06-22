@@ -1,1 +1,2 @@
-export const NEXT_PUBLIC_API_URL = '127.0.0.1:3001'
+// export const NEXT_PUBLIC_API_URL = '127.0.0.1:3001'
+export const NEXT_PUBLIC_API_URL = '127.0.0.1:3001/api'

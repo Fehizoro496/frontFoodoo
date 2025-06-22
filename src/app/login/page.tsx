@@ -20,9 +20,11 @@ export default function Page(){
         setError('')
 
         try {
-            await login(email,password)
-            console.log('go to home');
-            router.push("/structured/home")
+            login(email,password).then(()=>{
+                    console.log('go to home');
+                    router.push("/structured/home")
+                }
+            )
             
         } catch (error) {
             setError('Y a eu une erreur!')
